@@ -3,108 +3,112 @@
 }
 
 body {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	margin: 0 auto;
 	width: 960px;
-}	
+	}	
 
 .header {
 	background-color: #ffffff;
-	width: 960px;
-	height: 100px;
 	border-bottom: solid 2px #cccccc;
-
+	height: 100px;
+	width: 960px;	
 }
 
 .name {
 	background-color: #4aaaa5;
 	color: #ffffff;
+	float: left;
 	font-family: "Georgia", Times, Times New Roman, serif;
 	font-size: 28px;
+	font-weight: bold;
+	height: 98px;
 	margin-left: 135px;
 	margin-bottom: 0;
 	padding-bottom: 0;
-	width: 250px;
-	height: 95px;
-	text-align: center;
 	padding-top: 30px;
-	float: left;
+	text-align: center;
+	width: 290px;
 }
 
 li {
-	list-style: none;
+	color: #777777;
 	display: inline-block;
 	float: right;
+	list-style: none;
 	margin-right: 40px;
-	color: #777777;
 	padding-top: 45px;
 }
 
 .mainsection {
-	width: 960px;
+	background-image: url("../images/grey_sandbag.png");
 	height: 500px;
-	background: lightgray;
+	width: 960px;
 }
 
-.aboutme {
+.contactboxheader {
 	color: #4aaaa5;
-	border-bottom: solid 2px #dddddd;
+	float: left;
+	font-family: "Georgia", Times, "Times New Roman", serif;
+	font-size: 28px;
+	font-weight: bold;
 	margin-bottom: 20px;
 	width: 425px;
-	float: left;
 }
 
 .connectwithme {
-	color: #4aaaa5;
 	border-bottom: solid 2px #dddddd;
+	color: #4aaaa5;
+	float: right;
+	font-family: "Georgia", Times, Times New Roman, serif;
+	font-size: 18px;
+	font-weight: bold;
+	padding-right: 10px;
+	padding-top: 10px;
 	text-align: center;
 	width: 175px;
-	padding-right: 20px;
-	float: right;
 }
 
 .icons {
-	margin-right: 30px;
 	float: right;
+	margin-right: 30px;
 	padding-top: 20px;
 }
 
 .contentbox {
-	width: 469px;
+	background-color: #ffffff;
+	border: solid 2px #dddddd;
+	color: #777777;
+	float: left;
 	height: 348px;
+	margin-bottom: 40px;
 	margin-left: 135px;
 	margin-top: 40px;
-	margin-bottom: 40px;
-	background-color: #ffffff;
-	color: #777777;
-	border: solid 2px ;
 	padding-left: 20px;
 	padding-top: 10px;
-	float: left;
-	border: solid 2px #dddddd;
-
+	width: 469px;	
 }
 
 .connect {
 	background-color: #ffffff;
-	color: #777777;
-	margin-top: 40px;
-	margin-left: 40px;
-	width: 192px;
-	height: 142px;
-	float: left;
 	border: solid 2px #dddddd;
+	color: #777777;
+	float: left;
+	height: 142px;
+	margin-left: 40px;
+	margin-top: 40px;
+	width: 192px;	
 }
 
 .footer {
-	clear: both;
 	background-color: #666666;
-	color: #ffffff;
 	border-top: solid 7px #4aaaa5;
-	text-align: center;
+	clear: both;
+	color: #ffffff;
 	height: 100px;
-	width: 960px;
-	padding-top: 35px;
+	padding-top: 30px;
 	position: bottom;
+	text-align: center;
 }
 
 
