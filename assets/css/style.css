@@ -40,64 +40,122 @@ li {
 	padding-top: 45px;
 }
 
-.mainsection {
+.main-section {
 	background-image: url("../images/grey_sandbag.png");
 	height: 500px;
 	width: 960px;
 }
 
-.contactboxheader {
+.content-header {
+	border-bottom: solid 2px #dddddd;
 	color: #4aaaa5;
 	float: left;
 	font-family: "Georgia", Times, "Times New Roman", serif;
 	font-size: 28px;
 	font-weight: bold;
 	margin-bottom: 20px;
+	padding-bottom: 15px;
 	width: 425px;
 }
 
-.connectwithme {
+.content-box {
+	background-color: #ffffff;
+	border: solid 2px #dddddd;
+	color: #777777;
+	float: left;
+	height: 350px;
+	margin-bottom: 40px;
+	margin-left: 135px;
+	margin-top: 40px;
+	padding-left: 20px;
+	padding-top: 10px;
+	width: 460px;	
+}
+
+.contact-form {
+	clear: both;
+	float: left;
+	color: #777777;
+	list-style: none;
+	margin-left: 20px;
+}
+
+.submit-button  {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	float: left;
+	font-size: 18px;
+	height: 40px;
+	margin-left: 10px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	padding-top: 10px;
+	text-align: center;
+	width: 100px;
+}
+
+.portfolio-button  {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-family: "Georgia", Times, Times New Roman, serif;
+	font-size: 18px;
+	float: left;
+	height: 40px;
+	margin-top: 80px;
+	padding-top: 8px;
+	position: relative;
+	text-align: center;
+	width: 175px;
+	z-index: 2
+}
+
+.portfolio-image {
+	float: left;
+	height: 150px;
+	width: 175px;
+	margin-top: 60px;
+	position: absolute;
+	border: solid red;
+	z-index: 1
+}
+
+.connect-header {
 	border-bottom: solid 2px #dddddd;
 	color: #4aaaa5;
 	float: right;
 	font-family: "Georgia", Times, Times New Roman, serif;
 	font-size: 18px;
 	font-weight: bold;
-	padding-right: 10px;
 	padding-top: 10px;
+	padding-bottom: 15px;
 	text-align: center;
-	width: 175px;
+	width: 200px;
 }
+
+.connect-box {
+	background-color: #ffffff;
+	border: solid 2px #dddddd;
+	color: #777777;
+	float: right;
+	height: 150px;
+	margin-right: 135px;
+	margin-top: 40px;
+	width: 200px;	
+}
+
+img {
+	float:left;
+	margin-right: 20px;
+}
+
+p {
+	margin-top: 110px;
+}
+
 
 .icons {
 	float: right;
-	margin-right: 30px;
-	padding-top: 20px;
-}
-
-.contentbox {
-	background-color: #ffffff;
-	border: solid 2px #dddddd;
-	color: #777777;
-	float: left;
-	height: 348px;
-	margin-bottom: 40px;
-	margin-left: 135px;
-	margin-top: 40px;
-	padding-left: 20px;
-	padding-top: 10px;
-	width: 469px;	
-}
-
-.connect {
-	background-color: #ffffff;
-	border: solid 2px #dddddd;
-	color: #777777;
-	float: left;
-	height: 142px;
-	margin-left: 40px;
-	margin-top: 40px;
-	width: 192px;	
+	margin-top: 20px;
 }
 
 .footer {
