@@ -65,7 +65,7 @@ h3 {
 
 #logo {
   float: left;
-  width: 250px;
+  width: 300px;
   height: 90px;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 30px;
@@ -75,6 +75,7 @@ h3 {
   text-align: center;
   text-decoration: none;
   background: #4aaaa5;
+
 }
 
 nav {
@@ -238,6 +239,44 @@ input[type=submit] {
   border: 0 none;
 }
 
+@media screen and (max-width: 768px)
+{
+  .main-section,
+  .work,
+  .sidebar {
+    float:none;
+    text-align: left;
+    width: 100%;
+  }
+
+  .main-section, 
+  .sidebar
+    {
+      max-width: none;
+    }
+
+  #logo {
+      padding: 20px;
+    }
+  .main-section {
+    margin-top: 40px;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .social {
+    float: left;
+    padding-bottom: 15px;
+    margin-left: 10px;
+    margin-top: 0;
+  }
+
+  #connect {
+    height: 125px;
+  }
+
 @media screen and (max-width: 640px)
 {
   #logo,
@@ -251,8 +290,7 @@ input[type=submit] {
     text-align: center;
     width: 100%;
   }
-  .main-section,
-  .nav, 
+  .main-section, 
   .sidebar
     {
       max-width: none;
@@ -261,24 +299,18 @@ input[type=submit] {
     #logo {
       padding: 20px;
     }
+  .main-section {
+    margin-top: 40px;
+  }
 
-@media screen and (max-width: 768p) 
-{
-  #logo,
-  .main-section,
-  .work,
-  .auth-image,
-  nav,
-  .sidebar {
-    float: none;
-    width: 100%;
-    
-  } 
+  .social {
+    float: left;
+    padding-bottom: 15px;
+    margin-left: 10px;
+    margin-top: 0;
+  }
 
-  nav {
-    padding-right: 20px;
-
-} 
-
-
+  #connect {
+    height: 125px;
+  }
 
